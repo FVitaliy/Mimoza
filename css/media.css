@@ -1,0 +1,324 @@
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+@media	(max-width: 980px){
+	.container{
+		max-width: calc(100% - 40px);
+		padding: 0;
+	}
+.header-mobile {
+	display: none;
+}
+.header-desktop {
+	display: block;
+}
+.header_order {    
+    flex: 0 0 17%;
+}
+.menu_header .menu_block {
+    padding: 28px 10px;
+   }
+.header_promo {
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 12px;
+	text-align: left;
+}
+p.order {
+	line-height: 2;
+}	
+.menu_header a {
+	font-weight: 600;
+	font-size: 12px;	
+}
+.search_input_group {    
+    flex: 1 1 50%;
+    margin: 15px 0px 0 30px;
+}
+.header_buttons {
+    flex: 1 0 15%;
+}
+.tel_number {
+    font-size: 20px;
+    
+}
+.delivery_slogan {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: left;
+}
+.delivery_picture .delivery_slogan {
+	top: 24px;
+	left: 20px;
+}
+.menu_footer li {
+    flex: 0 0 10%;
+    margin-right: 27px;
+}
+.submenu_footer a .submenu_footer p {
+	font-weight: 300;
+	font-size: 10px;
+	line-height: 12px;
+	text-align: left;
+}
+.submenu_footer {
+    flex: 0 0 10%;
+    margin-right: 27px;
+}
+.block_2 {
+	margin-left: -10px;
+}
+.block_3 {
+	margin-left: 0px;
+}
+.block_4, .block_5 {
+	margin-left: 20px;
+}
+.block_6 {
+	margin-left: -5px;
+}
+}
+
+@media	(max-width: 650px){
+	.container{
+		max-width: calc(100% - 40px);
+		padding: 0;
+	}
+
+.header-mobile {
+	display: block;
+}
+.burger {
+		display: flex;
+	}
+.header-desktop {
+	display: none;
+}
+.header_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.header_row_logo {
+    display: flex;
+ 	justify-content: space-between;
+  }
+.logo img {
+	width: 100%;
+}
+.search_input_group {
+	margin: 20px 20px 0 5px;	
+    flex: 0 0 50%;
+ }
+.header_info {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+    margin: 10px 0 0 0;   
+}
+.btn_tel_blue {
+    margin-left: 20px;
+}
+.header_buttons {	
+	flex: 1 0 30%;
+	margin: 0;
+	padding: 0;
+}
+.total {	
+	border: 1px solid #E4E4E4;	
+}
+.header_order {
+    flex: 0 0 36%;
+}
+.tel_number {
+   padding: 0;
+   text-align: right;
+   font-size: 24px;
+}
+.header_order {
+	padding: 0;
+	margin: 0;
+}
+.title {
+	margin: 240px 0 47px 0;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 27px;
+
+}
+.delivery_slogan {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;   
+}
+.delivery_picture .delivery_slogan {
+	top: 14px;
+	left: 18px;
+}
+.discounts p {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px;
+}
+.footer_columns {
+     flex-wrap: nowrap; 
+}
+li.menu_footer a, .adress .menu_footer a {
+	text-transform: uppercase;
+	text-align: left;
+	color: #fff;
+	font-weight: 500;
+	font-size: 10px;
+	line-height: 17px;
+	text-align: left;
+}
+.menu_footer li {	
+	margin: 0 10px 0 0;
+}
+.menu_footer a {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 15px;
+}
+.submenu_footer {
+    margin: 0 10px 0 0;
+    flex: 0 0 11%;
+
+}
+
+.block_3 li.menu_footer {
+	margin-bottom: 14px;
+}
+.submenu_footer a {
+   font-size: 10px;
+	line-height: 16px;
+}
+.adress p {
+	font-size: 10px;
+	line-height: 15px;
+}
+
+.block_4, .block_5 {
+	margin-left: 5px;
+}
+.block_6 {
+	margin-left: 0px;
+}
+}
+
+@media	(max-width: 480px){
+	.container{
+		max-width: calc(100% - 40px);
+		padding: 0;
+	}
+.burger {
+		display: flex;
+}
+.header-delivery_sloganile {
+	display: block;
+}
+.header-desktop {
+	display: none;
+}
+.header_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.header_row_logo {
+    display: flex;
+ 	justify-content: space-between;
+  }
+.logo img {
+	width: 100%;
+}
+.search_input_group {
+	margin: 20px 20px 0 5px;	
+    flex: 0 0 50%;
+ }
+.header_info {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+    margin: 10px 0 0 0;   
+}
+.btn_tel_blue {
+    margin-left: 20px;
+}
+.header_buttons {	
+	flex: 1 0 20%;
+	margin: 0;
+	padding: 0;
+}
+.total {
+	display: none;
+}
+.tel_number {
+   padding: 0;
+   text-align: right;
+   font-size: 18px;
+}
+.header_order {
+	padding: 0;
+	margin: 0;
+}
+.title {
+	margin: 180px 0 20px 0;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+
+}
+.delivery_slogan {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+}
+.delivery_picture .delivery_slogan {
+	top: 14px;
+	left: 18px;
+}
+.discounts p {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px;
+}
+.footer_columns {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+.submenu_footer {
+	display: none;
+}
+.menu_footer {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-left: 120px;
+}
+.menu_footer li {
+	line-height: 40px;
+}
+.adress {
+	display: block;
+}
+.adress p, .media_footer, .cards_footer {
+	margin-left: 120px;
+}
+.adress p {
+	font-size: 12px;
+	line-height: 20px;
+}
+.adress .menu_footer a {
+	font-size: 14px;
+}
+}
+
